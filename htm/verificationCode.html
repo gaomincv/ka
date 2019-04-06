@@ -1,0 +1,35 @@
+<!doctype html>  
+<html lang="zh-CN" class="fh"> 
+<head> 
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>移动存费送费</title>
+ <script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
+</head> 
+<body> 
+
+  <div>
+    <p>上传图片<input type="file" id="file" ></p>
+    <img src="" alt="" id="prview">
+  </div>
+
+</body> 
+</html> 
+<script>
+  $("#file").change(function(e){
+    var Afile=e.target.files;
+   if(Afile&&Afile.length>0){
+       var Cfile=Afile[0];
+       var freader = new FileReader();
+        freader.readAsDataURL(Cfile);
+         freader.onload = function (e) {
+                 $("#prview").attr("src",e.target.result)         
+               }
+   }
+
+  })
+
+
+</script>
+ 

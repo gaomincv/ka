@@ -1,0 +1,23 @@
+{
+	"code": "200",
+	"type": "3",
+	"number": "18689713456",
+	"textArray": [{
+		"text1": "预存100元话费送100元话费",
+		"ad": "注：预存话费一次到账，赠送话费分5个月返还，每月20元."
+	}, {
+		"text1": "预存100元话费送100元话费",
+		"ad": "注：预存话费一次到账，赠送话费分5个月返还，每月20元."
+	}, {
+		"text1": "预存100元话费送100元话费",
+		"ad": "注：预存话费一次到账，赠送话费分5个月返还，每月20元."
+	}],
+     "activity":"2",
+     "arrowLogoLeft":"http://a10.sinovatech.com/group1/M00/00/09/rBAnCVyYeWuAAct-AAAXkoV7JpA372.png",
+     "arrowLogoRight":"http://a10.sinovatech.com/group1/M00/00/08/rBAnCVyYaKqAAReKAAAIi2csZ60310.png",
+     "arrowUp":"http://a10.sinovatech.com/group1/M00/00/08/rBAnCVyYaXSAKwrzAACPBBTuihg745.png",
+     "bigImg":"http://a10.sinovatech.com/group1/M00/00/08/rBAnCVyYaXSAKwrzAACPBBTuihg745.png",
+     "part":"马上参与",
+     "rule":"活动规则"
+
+}
